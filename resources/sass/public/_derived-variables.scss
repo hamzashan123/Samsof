@@ -1,0 +1,8 @@
+$custom-colors: (
+    'yellow': ($yellow, findColorInvert($yellow)),
+    'green': ($green, findColorInvert($green)),
+    'blue': ($blue, findColorInvert($blue)),
+    'light-blue': ($lightBlue, findColorInvert($light-blue)),
+    'red': ($red, findColorInvert($red)),
+);
+$colors: map-merge($colors, $custom-colors);

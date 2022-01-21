@@ -1,0 +1,50 @@
+.notice-card {
+    background: $light-blue;
+    color: #fff;
+    padding: 2em 1.5em;
+
+    .notice-card-heading {
+        .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $family-sans-serif;
+            font-size: 1.6em;
+            margin: 1em 0;
+            color: #fff;
+        }
+    }
+
+    .notice-card-icon {
+        max-width: 80px;
+        margin-bottom: 1.2em;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+.page-navigator {
+    position: relative;
+    top: 20px;
+}
+
+.search-result {
+    margin-bottom: 1em;
+
+    .result-type {
+        color: #aaa;
+        font-size: .8em;
+    }
+
+    .result-title {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .result-excerpt {
+        font-size: .9em;
+        color: #777;
+    }
+}

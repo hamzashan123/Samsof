@@ -1,0 +1,1 @@
+<?php /**PATH C:\Users\Fundile\Documents\GitHub\sasmfos-website\resources\views/home/partials/right-sidebar.blade.php ENDPATH**/ ?>

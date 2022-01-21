@@ -1,0 +1,1 @@
+<?php /**PATH D:\All about Laravel\sasmfos-website-main\sasmfos-website-main\resources\views/home/partials/right-sidebar.blade.php ENDPATH**/ ?>

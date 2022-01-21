@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap');
+
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+@import 'public/variables';
+
+//@import '~bulma/sass/utilities/derived-variables';
+//@import '~bulma';
+@import '~buefy/src/scss/buefy-build';
+
+@import 'public/overrides';
+
+@import 'public/layout';
+@import 'public/helpers/flex.sass';
+@import 'public/helpers/spacing';
+@import 'public/helpers/shadows';
+@import 'public/helpers/typography';
+@import 'public/media-queries';
+@import 'public/components';
+
+.is-facebook {
+    background: #3b5998;
+    color: #fff;
+}
+
+.is-twitter {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.is-linkedin {
+    background: #2867b2;
+    color: #fff;
+}

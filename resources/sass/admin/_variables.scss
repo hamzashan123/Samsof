@@ -1,0 +1,30 @@
+// Typography
+$family-sans-serif: 'Barlow', sans-serif;
+$title-family: 'Verdana', sans-serif;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$primary: $cyan;
+$secondary: $teal;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+);
+
+$input-shadow: none;
+
+$section-padding: 1rem 1rem;
