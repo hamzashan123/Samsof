@@ -35,7 +35,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //URL::forceScheme('https');
+       
         Validator::extend('recaptcha', ReCaptchaValidator::class . '@validate');
         View::composer('*', CookieComposer::class);
         Member::observe(MemberObserver::class);
