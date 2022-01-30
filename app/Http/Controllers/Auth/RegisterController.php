@@ -71,7 +71,7 @@ class RegisterController extends Controller
 
         $user->hospitals()->sync($hospitals);
 
-        event(new Registered($user));
+        //event(new Registered($user));
 
         return $this->registered($request, $user);
     }
